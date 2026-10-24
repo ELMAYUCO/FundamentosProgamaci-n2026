@@ -1,0 +1,13 @@
+nombre="mario"
+apellidopaterno="acosta"
+apellidomaterno="reyes"
+fechanacimiento="2003-09-24"
+sexo="H"
+entidadfederativa="DF"
+final="cyr03"
+curd=apellidopaterno[0:2]+apellidomaterno[0:1]+nombre[0:1]
+curd=curd+fechanacimiento[2:4]+fechanacimiento[5:7]+fechanacimiento[8:10]
+curd=curd+sexo+entidadfederativa+final
+print(curd.replace("df","vz"))
+curd=curd.replace("df","vz")
+print(curd)
